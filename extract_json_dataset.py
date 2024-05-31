@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
         day = df.loc[0]['timeSets'][0]['dayToTimeRanges'][0]['dayOfWeek']
         hour_interval = df.loc[0]['timeSets'][0]['dayToTimeRanges'][0]['timeRanges'][0]
-
+        print("Extract ", file_name)
         # Iterasi setiap hasil/jalan dari suatu file
         for obj in df.loc[0]['network.segmentResults']:
             if obj['segmentTimeResults'][0]['sampleSize'] == 0 or ('streetName' not in obj):
