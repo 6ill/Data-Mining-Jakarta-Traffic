@@ -3,7 +3,7 @@ import json
 import os
 
 DIR_PATH = "../dataset"
-COLS = ['segxmentId','speedLimit', 'frc', 'streetName', 'distance', 'shape']
+COLS = ['segmentId','speedLimit', 'frc', 'streetName', 'distance', 'shape']
 SEGMENT_TIME_COLS = ['harmonicAverageSpeed', 'medianSpeed', 'averageSpeed', 'standardDeviationSpeed', 'travelTimeStandardDeviation', 'sampleSize', 'averageTravelTime', 'medianTravelTime', 'travelTimeRatio']
 
 if __name__ == "__main__":
