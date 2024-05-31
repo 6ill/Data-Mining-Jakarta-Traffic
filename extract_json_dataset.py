@@ -33,6 +33,8 @@ if __name__ == "__main__":
                 street_info[col] = obj['segmentTimeResults'][0][col]
 
             streets_list.append(street_info)
+    print("Selesai diekstrak! Waktunya buat file csv")
     pd.DataFrame(streets_list).to_csv(f"cleaned_jakarta_traffic.csv")
+    print("file csv selesai dibuat")
 
         
